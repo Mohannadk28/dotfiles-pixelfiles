@@ -9,6 +9,7 @@ setopt HIST_FIND_NO_DUPS
 
 source $ZSH/zshalias
 source $ZSH/zshplugins
+source $ZSH/sudo.plugin.zsh
 eval "$(starship init zsh)"
 
 export NVM_DIR="$HOME/.nvm"
