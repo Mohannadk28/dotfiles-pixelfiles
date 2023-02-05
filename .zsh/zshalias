@@ -1,0 +1,20 @@
+# Rust Tools 
+
+## exa
+alias ls='exa --long --header --git --icons'
+alias la='exa --long --header --git --icons -a'
+
+## bat
+alias cat='bat'
+
+## Zoxide
+alias cd='z'
+
+# Useful Aliass
+alias mkdir='mkdir -p'
+alias youtube-dl='yt-dlp'
+
+# Shotcuts
+alias cl='clear'
+alias vim='nvim'
+
