@@ -18,3 +18,7 @@ alias youtube-dl='yt-dlp'
 alias cl='clear'
 alias vim='nvim'
 
+# Scripts
+alias screenshot='bash ~/.scripts/screenshot'
+alias copy='bash ~/.scripts/copy'
+
