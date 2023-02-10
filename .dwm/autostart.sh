@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+
+amixer set Master 100%
+brightnessctl s 100%
 
 /usr/bin/lxpolkit & # LX PolicyKit
 feh --bg-fill -z ~/.wallpapers/* # Sets The Wallpaper
@@ -9,4 +12,6 @@ picom & # Starts The Composter
 conky & # Starts The Weather Widget
 
 megasync & # starts MEGAsync
+
+mpv --no-video ~/.pixelfiles/sounds-pixelfiles/startup.mp3
 
