@@ -13,5 +13,5 @@ conky & # Starts The Weather Widget
 
 megasync & # starts MEGAsync
 
-mpv --no-video ~/.pixelfiles/sounds-pixelfiles/startup.mp3
+mpv --no-video ~/.pixelfiles/sounds-pixelfiles/startup.mp3 &
 

@@ -131,8 +131,8 @@ symbol = "🅢 "
 [line_break]
 disabled = true
 
-[character]
-success_symbol = '[❯ ](bold green)'
+#[character]
+#success_symbol = '[❯ ](bold green)'
 
 [username]
 style_user = 'blue bold'

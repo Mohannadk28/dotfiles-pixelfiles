@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  tabs.show:
-    global: always
+  fonts.default_family:
+    global: FiraCode Nerd Font

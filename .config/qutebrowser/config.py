@@ -7,6 +7,7 @@ c.url.start_pages              =              ['https://web.tabliss.io/']
 c.url.default_page             =             'https://web.tabliss.io/'
 
 c.tabs.show                    = "never"
+c.fonts.default_family        = "FiraCode Nerd Font"
 
 config.bind('M', 'hint links spawn mpv {hint-url}')
 config.bind('xt', 'config-cycle tabs.show always never')
