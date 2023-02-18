@@ -24,4 +24,5 @@ ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/gtk-2.0 "$HOME"/.config/g
 ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/npm "$HOME"/.config/npm
 
 ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/fontconfig "$HOME"/.config/fontconfig
+ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/conky "$HOME"/.config/conky
 
