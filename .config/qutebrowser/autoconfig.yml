@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  fonts.default_family:
-    global: FiraCode Nerd Font
+  content.register_protocol_handler:
+    https://mail.proton.me#mailto=%25s: false

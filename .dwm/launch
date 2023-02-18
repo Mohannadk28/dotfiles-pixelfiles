@@ -1,5 +1,0 @@
-#!/bin/bash
-
-mpv --no-video ~/.pixelfiles/sounds-pixelfiles/menu1.mp3 &
-dmenu_run -l 12 -p "Launch:"
-

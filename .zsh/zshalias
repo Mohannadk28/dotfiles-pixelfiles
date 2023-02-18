@@ -16,6 +16,7 @@ alias youtube-dl='yt-dlp'
 
 # Shotcuts
 alias cl='clear'
+alias clh='rm -rf ~/.zsh/zshistory'
 alias vim='nvim'
 
 # Scripts
