@@ -15,3 +15,5 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export XAUTHORITY="$HOME"/.config/Xauthority
 export W3M_DIR="$XDG_DATA_HOME"/w3m
 
+# PF-Dirs
+

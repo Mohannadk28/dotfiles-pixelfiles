@@ -27,4 +27,4 @@ alias copy='bash ~/.scripts/copy'
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 alias feh="feh --no-fehbg"
 
-alias xs='startx ~/.config/X11/xinitrc'
+alias x='startx ~/.config/X11/xinitrc'

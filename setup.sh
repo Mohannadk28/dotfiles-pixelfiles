@@ -12,6 +12,7 @@ ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/starship.toml "$HOME"/.co
 ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/picom.conf "$HOME"/.config/picom.conf
 
 ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/zsh "$HOME"/.config/zsh
+ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.zshenv "$HOME"/.zshenv
 ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/zsh.d "$HOME"/.config/zsh.d
 
 ln -sf "$HOME"/.pixelfiles/dotfiles-pixelfiles/.config/git "$HOME"/.config/git
