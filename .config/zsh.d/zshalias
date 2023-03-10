@@ -1,30 +1,50 @@
-# Rust Tools 
+alias mkdir='mkdir -p'
 
-## exa
+# Alternatives
 alias ls='exa --long --header --git --icons --group-directories-first'
+alias ll='exa --long --header --git --icons --group-directories-first'
 alias la='exa --long --header --git --icons --group-directories-first -a'
 
-## bat
 alias cat='bat'
 
-## Zoxide
 alias cd='z'
 
-# Useful Aliass
-alias mkdir='mkdir -p'
 alias youtube-dl='yt-dlp'
 
 # Shotcuts
+alias g='git'
+alias gi='git init'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gcl='git clone'
+alias gp='git push'
+alias gs='git submodule'
+alias gsi='git submodule init'
+alias gsa='git submodule add'
+alias gsu='git submodule update'
+
 alias cl='clear'
 alias clh='rm -rf $ZSH/zshistory'
+alias cld='rm -rf $HOME/Downloads/*.*'
+
 alias vim='nvim'
+alias v='nvim'
+
+alias s='doas'
+alias se='doasedit'
+alias sudo='doas'
+
+alias e='$EDITOR'
+alias b='$BROWSER'
+alias r='$FILEMANAGER'
 
 # Scripts
-alias screenshot='bash ~/.scripts/screenshot'
-alias copy='bash ~/.scripts/copy'
+alias screenshot='bash "$PF_DIR_SCRIPTS"/screenshot'
+alias copy='bash "$PF_DIR_SCRIPTS"/copy'
 
 # CleanUP
 alias wget='wget --hsts-file="$XDG_DATA_HOME/wget-hsts"'
 alias feh="feh --no-fehbg"
 
+# X server 
 alias x='startx ~/.config/X11/xinitrc'

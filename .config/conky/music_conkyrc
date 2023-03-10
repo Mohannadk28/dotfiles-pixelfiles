@@ -21,10 +21,10 @@ imlib_cache_size = 0,                       -- disable image cache to get a new 
     -- Placement (For SINGLE monitor users!)
 alignment = 'bottom_right',            -- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
 gap_x = 28,-- pixels between right or left border
-gap_y = 45,-- pixels between bottom or left border
+gap_y = 240,-- pixels between bottom or left border
 
 -- Size
-minimum_height = 210,-- minimum height of window
+minimum_height = 50,-- minimum height of window
 minimum_width  = 480,-- minimum width of window
 maximum_width  = 480,-- maximum width of window
 
@@ -76,7 +76,13 @@ color1 = '#dddddd',
 };
 
 conky.text = [[
-
-${font FiraCode Nerd Font:size=14}${alignc}${color1}${execpi 300 curl http://wttr.in/Amman?T0 --silent --max-time 3}${font ubuntu:size=10.5}
-
+${if_running cmus}${color #dddddd}${font FiraCode Nerd Font:pixelsize=18}NOW PLAYING:
+${color #dddddd}${font FiraCode Nerd Font:pixelsize=10}
+${color #dddddd}${font FiraCode Nerd Font:style=bold:pixelsize=12}${font FiraCode Nerd Font:style=bold:pixelsize=16}${exec cmus-remote -Q 2>/dev/null | grep title | cut -d " " -f 3- }${font FiraCode Nerd Font:style=bold:pixelsize=8}
+${color #dddddd}${font FiraCode Nerd Font:style=bold:pixelsize=16}${font FiraCode Nerd Font:pixelsize=12}${exec cmus-remote -Q 2>/dev/null | grep 'tag artist' | cut -d " " -f 3-}
+${else}${color #dddddd}${font FiraCode Nerd Font:pixelsize=18}CMUS NOT RUNNING
+${color #dddddd}${font FiraCode Nerd Font:pixelsize=10}
+${color #dddddd}${font FiraCode Nerd Font:style=bold:pixelsize=12}${font FiraCode Nerd Font:style=bold:pixelsize=16}No Song${font FiraCode Nerd Font:style=bold:pixelsize=8}
+${color #dddddd}${font FiraCode Nerd Font:style=bold:pixelsize=16}${font FiraCode Nerd Font:pixelsize=12}No Artist
+${endif}
 ]];

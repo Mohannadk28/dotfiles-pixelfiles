@@ -1,5 +1,6 @@
 export ZSH=$HOME/.config/zsh.d
-export PATH=$HOME/.local/bin:$PATH
+#export PATH=$HOME/.local/bin:$PATH
+export PATH=/home/mohannadk28/.local/bin:$PATH
 
 export HISTFILE=$ZSH/zshistory
 export HISTSIZE=10000
@@ -12,7 +13,6 @@ compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 
 source $ZSH/zshalias
 source $ZSH/zshplugins
-source $ZSH/sudo.plugin.zsh
 eval "$(starship init zsh)"
 
 export NVM_DIR="$HOME/.local/share/nvm"
@@ -22,4 +22,5 @@ export NVM_DIR="$HOME/.local/share/nvm"
 export DENO_INSTALL="/home/mohannadk28/.local/share/deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
+bindkey -v
 eval "$(zoxide init zsh)"

@@ -24,7 +24,7 @@ gap_x = 28,-- pixels between right or left border
 gap_y = 45,-- pixels between bottom or left border
 
 -- Size
-minimum_height = 210,-- minimum height of window
+minimum_height = 140,-- minimum height of window
 minimum_width  = 480,-- minimum width of window
 maximum_width  = 480,-- maximum width of window
 
@@ -77,6 +77,6 @@ color1 = '#dddddd',
 
 conky.text = [[
 
-${font FiraCode Nerd Font:size=14}${alignc}${color1}${execpi 300 curl http://wttr.in/Amman?T0 --silent --max-time 3}${font ubuntu:size=10.5}
+${font FiraCode Nerd Font:size=14}${color1}${execpi 300 curl http://wttr.in/Amman?T0 --silent --max-time 3 | tail -n +3}
 
 ]];

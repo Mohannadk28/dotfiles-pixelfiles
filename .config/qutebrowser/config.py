@@ -15,4 +15,4 @@ config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.
 
 # Nordic QuteBrowser by Linuus on Github
 # https://github.com/Linuus/nord-qutebrowser
-config.source('nord-qutebrowser.py')
+config.source('qutewal.py')

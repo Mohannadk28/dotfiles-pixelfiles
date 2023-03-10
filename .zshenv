@@ -1,8 +1,9 @@
-
 # Default Apps
 export BROWSER="firefox"
-export EDITOR="nvim"
 export TERMINAL="st"
+export EDITOR="nvim"
+export FILEMANAGER="ranger"
+export MENU="dmenu -l 15"
 
 # XDG-DIRS
 export XDG_DATA_HOME="$HOME"/.local/share
@@ -20,9 +21,17 @@ export ZDOTDIR="$HOME"/.config/zsh
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export W3M_DIR="$XDG_DATA_HOME"/w3m
 export LESSHISTFILE="-"
+export XCURSOR_PATH=/usr/share/icons:${XDG_DATA_HOME}/icons
+
+# Qt Theme
+export QT_STYLE_OVERRIDE=kvantum
 
 # PF-Dirs
-export PFDIR_MASTER="$HOME"/.pixelfiles
-export PFDIR_DOTS="$PFDIR_MASTER"/dotfiles-pixelfiles
-export PFDIR_SOUNDS="$PFDIR_MASTER"/sounds-pixelfiles
+export PF_DIR="$HOME"/.pixelfiles
+export PF_DIR_DOTS="$PF_DIR"/dotfiles-pixelfiles
+export PF_DIR_SOUNDS="$PF_DIR"/sounds-pixelfiles
+export PF_DIR_SCRIPTS="$PF_DIR"/scripts-pixelfiles
+export PF_DIR_WALLPAPERS="$PF_DIR"/wallpapers-pixelfiles
+
+export QUTEWAL_DYNAMIC_LOADING=True
 
