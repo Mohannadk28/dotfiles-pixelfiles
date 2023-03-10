@@ -1,0 +1,11 @@
+#!/bin/sh
+
+while read file
+do
+fullpath="$(pwd)/$file"
+cp -r "$file" ~/.config/wall.png
+wal -i "/home/mohannadk28/.config/wall.png"
+xdotool key Super+F5
+rm -rf ~/.cache/wal/schemes/_home_mohannadk28__config_wall_png_dark_None_None_1.1.0.json
+done
+
